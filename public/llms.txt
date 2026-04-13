@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+המבורגרים הטריים והטעימים ביותר ממתינים לכם! מסעדת המבורגרים משפחתית מגישה בשר איכותי, טעמים עשירים ואווירה חמה. הזמינו עכשיו וגלו למה כולם חוזרים!
+
+### מנות מומלצות
+https://example.com/menu
+תפריט המבורגרים עשיר ומגוון עם מנות מומלצות שכל אחת מהן היא חוויה בפני עצמה. בשר טרי, תוספות מיוחדות וטעמים שלא תשכחו — בחרו את המבורגר החלומי שלכם עוד היום!
+
+### אודות
+https://example.com/about
+מסעדת המבורגרים נולדה מאהבה אמיתית לאוכל טוב ולאנשים. גלו מי אנחנו, מה מניע אותנו ולמה אנחנו מכינים רק המבורגר איכותי בישראל עם מרכיבים טריים ותשוקה אמיתית בכל יום.
+
+### צור קשר
+https://example.com/contact
+רוצים להזמין מקום, לשאול שאלה או פשוט לדעת איפה אנחנו? צרו איתנו קשר עכשיו ונשמח לעזור! המבורגר טרי וטעים ליד הבית מחכה לכם — אל תתנו לרעב לנצח, צרו קשר היום.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
