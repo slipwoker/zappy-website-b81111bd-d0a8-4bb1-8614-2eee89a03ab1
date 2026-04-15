@@ -219,13 +219,16 @@
 </script>
 <!-- End Zappy Analytics -->
     <meta property="og:title" content="גלו את המנות שיגרמו לכם לחזור — המבורגרים">
-  <meta property="og:description" content="תפריט המבורגרים עשיר ומגוון עם מנות מומלצות שכל אחת מהן היא חוויה בפני עצמה. בשר טרי, תוספות מיוחדות וטעמים שלא תשכחו — בחרו את המבורגר החלומי שלכם עוד היום!">
-  <meta property="og:type" content="website">
+    <meta property="og:description" content="תפריט המבורגרים עשיר ומגוון עם מנות מומלצות שכל אחת מהן היא חוויה בפני עצמה. בשר טרי, תוספות מיוחדות וטעמים שלא תשכחו — בחרו את המבורגר החלומי שלכם עוד היום!">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="גלו את המנות שיגרמו לכם לחזור — המבורגרים">
+    <meta name="twitter:description" content="תפריט המבורגרים עשיר ומגוון עם מנות מומלצות שכל אחת מהן היא חוויה בפני עצמה. בשר טרי, תוספות מיוחדות וטעמים שלא תשכחו — בחרו את המבורגר החלומי שלכם עוד היום!">
+    <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="גלו את המנות שיגרמו לכם לחזור — המבורגרים">
-  <meta name="twitter:description" content="תפריט המבורגרים עשיר ומגוון עם מנות מומלצות שכל אחת מהן היא חוויה בפני עצמה. בשר טרי, תוספות מיוחדות וטעמים שלא תשכחו — בחרו את המבורגר החלומי שלכם עוד היום!">
+  
+  
+  
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -255,6 +258,9 @@
       /* Submenu item styling */
       .sub-menu li { list-style: none; margin: 0; padding: 0; }
       .sub-menu a { display: block !important; padding: 10px 16px !important; color: var(--text-dark, #333) !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+      [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 10px !important; padding-right: 28px !important; }
+      .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
       .sub-menu a:hover { background-color: #f5f5f5; }
       /* RTL (Hebrew/Arabic) dropdown positioning */
       [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
@@ -282,6 +288,10 @@
         .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
         .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
         .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-light) !important; }
+        .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+        [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 0 !important; padding-right: 28px !important; }
+        .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
+        .nav-menu.active, #navMenu.active { max-width: 100vw !important; overflow-x: hidden !important; box-sizing: border-box !important; }
         .navbar .sub-menu li a, nav.navbar .sub-menu li a, .zappy-products-dropdown .sub-menu a { color: var(--text-light) !important; }
       }
       @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
@@ -1070,13 +1080,13 @@
       <!-- Column 1: Company Info -->
       <div class="footer-col footer-brand">
         <a href="/" class="footer-logo-link">
-          <img src="/assets/business-logo.webp" alt="המבורגרים" class="logo">
+          <img src="/assets/business-logo.webp" alt="המבורגרים" class="logo" data-element-type="image" data-element-id="img-1776072499707-9mnmvkcr9" data-zappy-footer-image="true" >
         </a>
         <p class="footer-tagline">חוויית ההמבורגר האולטימטיבית — טעם שלא שוכחים.</p>
         <div class="footer-social">
           <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1776072499707-juy6puap7" data-icon-type="fontawesome"></i></a>
+          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1776072499707-4441w7pq9" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
 
@@ -1095,11 +1105,11 @@
         <h3 class="footer-heading"><span class="heading-accent"></span>יצירת קשר</h3>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1776072499707-uvvd6qas0" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1776072499707-mw2z5s104" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
@@ -1111,9 +1121,9 @@
       <div class="footer-col">
         <h3 class="footer-heading"><span class="heading-accent"></span>שעות פעילות</h3>
         <ul class="footer-hours">
-          <li><a href="/"><span class="day">ראשון – חמישי</span><span class="time">12:00 – 23:00</span></a></li>
-          <li><a href="/"><span class="day">שישי</span><span class="time">12:00 – 15:00</span></a></li>
-          <li><a href="/"><span class="day">מוצ"ש</span><span class="time">20:00 – 00:00</span></a></li>
+          <li><a href="/" ><span class="day">ראשון – חמישי&nbsp;</span><span class="time">12:00 – 23:00</span></a></li>
+          <li><a href="/" ><span class="day">שישי&nbsp;</span><span class="time">12:00 – 15:00</span></a></li>
+          <li><a href="/" ><span class="day">מוצ"ש&nbsp;</span><span class="time">20:00 – 00:00</span></a></li>
         </ul>
       </div>
     </div>
