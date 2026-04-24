@@ -1,6 +1,4 @@
-# המבורגרים — Generative Engine Optimization Map
-
-> A burger restaurant seeking an online presence. The specific identity, atmosphere, and unique characteristics of the restaurant have not yet been described.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,20 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About המבורגרים
-A burger restaurant seeking an online presence. The specific identity, atmosphere, and unique characteristics of the restaurant have not yet been described.
-
-## Services/Products
-- המבורגרים
-
-## Target Audience
-- חובבי אוכל צעירים
-- משפחות בערבי סוף שבוע
-- עובדי משרדים בצהריים
-
-## Industry
-מזון ומסעדנות
-
+## About Business
 ---
 
 # Additional Resources
