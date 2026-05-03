@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# המבורגרים — Generative Engine Optimization Map
+
+> A burger restaurant seeking an online presence. The specific identity, atmosphere, and unique characteristics of the restaurant have not yet been described.
 
 ---
 
@@ -36,12 +38,44 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://hamburgerim.zappy5.app/contact
+- Endpoint: https://hamburgerim.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://hamburgerim.zappy5.app/sitemap.xml
-- **Robots.txt**: https://hamburgerim.zappy5.app/robots.txt
+## About המבורגרים
+A burger restaurant seeking an online presence. The specific identity, atmosphere, and unique characteristics of the restaurant have not yet been described.
+
+## Services/Products
+- המבורגרים
+
+## Target Audience
+- חובבי אוכל צעירים
+- משפחות בערבי סוף שבוע
+- עובדי משרדים בצהריים
+
+## Industry
+מזון ומסעדנות
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://hamburgerim.zappy5.app/sitemap.xml
+- Robots: https://hamburgerim.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://hamburgerim.zappy5.app/llms-full.txt
